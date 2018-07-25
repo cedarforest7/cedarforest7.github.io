@@ -6,11 +6,11 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-25T05:00:37.151Z</updated>
+  <updated>2018-07-25T05:38:08.377Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Jackie Yin</name>
     
   </author>
   
@@ -21,15 +21,15 @@
     <link href="http://yoursite.com/2018/07/25/Hello-what-s-up/"/>
     <id>http://yoursite.com/2018/07/25/Hello-what-s-up/</id>
     <published>2018-07-25T04:50:10.000Z</published>
-    <updated>2018-07-25T05:00:37.151Z</updated>
+    <updated>2018-07-25T05:38:08.377Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to my personal blog! My name is Jackie and I am currently a grad studying Information Science at Cornell. </p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to my personal blog! My name is Jackie and I’m currently a grad studying Information Science at Cornell. </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to my personal blog! My name is Jackie and I am currently a grad studying Information Science at Cornell. &lt;/p&gt;
+        &lt;p&gt;Welcome to my personal blog! My name is Jackie and I’m currently a grad studying Information Science at Cornell. &lt;/p&gt;
 
       
     
