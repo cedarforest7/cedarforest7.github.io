@@ -1,636 +1,422 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next mist use-motion" lang="">
+<html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-  <link rel="alternate" href="/atom.xml" title="J.YIN" type="application/atom+xml" />
-
-
-
-
-
-
-<meta property="og:type" content="website">
-<meta property="og:title" content="J.YIN">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="J.YIN">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="J.YIN">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Mist',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: 'cedarforest7'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://yoursite.com/"/>
-
-
-
-
-
-  <title>J.YIN</title>
-  
-
-
-
-
-
-
-
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jackie Yin</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left 
-  page-home">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">J.YIN</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h1>Jackie Yin</h1>
+          <hr>
+          <p>Software • Data • Technology</p>
+          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
+      </div>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
   </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+      </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden col-md-10"> <a href="#page-top"></a> </li>
+          <li class="col-md-2"> <a class="page-scroll" href="#about">About</a> </li>
+          <li class="col-md-2"> <a class="page-scroll" href="#education">Education</a> </li>
+          <li class="col-md-2"> <a class="page-scroll" href="#experiences">Experiences</a> </li>
+          <li class="col-md-2"> <a class="page-scroll" href="#portfolio">Projects</a> </li>
+          <li class="col-md-2"> <a class="page-scroll" href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>Hi! This is Jackie. I'm a software engineer and a lifelong learner. I enjoy developing products which can make differences in people's lives. I love playing tennis and skating during my free time.</p>
+          <p>I have developed web apps and mobile apps as a student at Cornell and infrastructure at Goldman Sachs as a summer intern. I am familiar with mainstream front-end and back-end technologies. I am comfortable communicating with technical peers and non-technical collaborators and clients, and I enjoy working with people from diverse backgrounds.</p>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">My Projects</a> </div>
+      </div>
+    </div>
   </div>
 </div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            Archives
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/25/Hello-what-s-up/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jackie Yin">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="J.YIN">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/25/Hello-what-s-up/" itemprop="url">Hello, what's up</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-25T12:50:10+08:00">
-                2018-07-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to my personal blog! My name is Jackie and I’m currently a grad studying Information Science at Cornell. </p>
-
-          
-        
-      
+<!-- Education Section -->
+<div id="education">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Education</h2>
+      <hr>
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
-
-
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <p class="site-author-name" itemprop="name">Jackie Yin</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives/">
-              
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">posts</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-            <div class="feed-link motion-element">
-              <a href="/atom.xml" rel="alternate">
-                <i class="fa fa-rss"></i>
-                RSS
-              </a>
+    <div class="row edu">
+      <div class="col-md-10 col-md-offset-2">
+          <div>
+            <div class="col-md-3">
+              <p>08/2018 - 12/2019</p>
             </div>
+            <div class="col-md-9">
+              <p>
+                <strong>Cornell University <br></strong>
+                <span> Master in Information Science (Specialized in Software Engineering)<br>	</span>
+                <span>
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  Ithaca, NY</span>
+              </p>
+            </div>
+          </div>
           
-
+         
+                  
+          <div>
+            <div class="col-md-3">
+              <p>08/2016 - 05/2018</p>
+            </div>
+            <div class="col-md-9">
+              <p>
+                <strong>The Ohio State University<br></strong>
+                <span>M.S. in Chemistry	<br></span>
+                <span>
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                   Columbus, OH			</span>
+              </p>
+            </div>
+          </div>
           
+         
 
+          <div>
+            <div class="col-md-3">
+              <p>09/2012 - 06/2016</p>
+            </div>
+            <div class="col-md-9">
+              <p>
+                <strong>Fudan University<br> </strong>
+                <span >
+                  B.S. in Macromolecular Materials and Engineering<br>	</span>
+                <span>
+                  <span class="location">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                   Shanghai, China			</span>
+                
+              </p>
+            </div>
+          </div>
+                 
+     
           
-          
+          <div>
+            <div class="col-md-3">
+              <p>01/2016 - 02/2016</p>
+            </div>
+            <div class="col-md-9">
+              <p>
+                <strong>University of California San Diego<br></strong>
+                <span >
+                  Winter Exchange, Future Global Leaders (FGL) Program<br>		</span>
+                <span>
+                  <span class="location">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    La Jolla, CA				</span>
+                
+              </p>
+            </div>
+          </div>
 
-          
-          
 
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
       </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Jackie Yin</span>
-
-  
+  </div>
 </div>
 
+<!-- Experiences Section -->
+<div id="experiences">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Experiences</h2>
+      <hr>
+    </div>
+    <div class="row edu">
+      <div class="col-md-10 col-md-offset-2">
+          <div>
+            <div class="col-md-3">
+              <p><strong>Goldman Sachs Group, Inc.</strong></p>
+              <p>05/2019 - 08/2019</p>
+              
+            </div>
+            <div class="col-md-8">
+              <p>
+                <strong>Software Engineer Intern <br></strong>
+                <span>
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  New York, NY
+                </span>
+                <p style="font-size:16px">Developed an infrastructure that controls vulnerabilities of open-source artifacts from design and implementation to testing and deployment.<br>
+                  The system enhances code safety and security, preventing potential financial loss from vulnerable software at the firm.</p>
+                
+              </p>
+            </div>
+          </div>
+          
+         
+                  
+          <div>
+            <div class="col-md-3">
+              <p><strong>Google LLC</strong></p>
+              <p>03/2020 - now</p>
+              
+            </div>
+            <div class="col-md-8">
+              <p>
+                <strong>Software Engineer <br></strong>
+                
+                <span>
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  Mountain View, CA 
+                </span>
+                <p style="font-size:16px"></p>
+              </p>
+            </div>
+          </div>
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
-
-
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-        
       </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
   </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Projects</h2>
+      <hr>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".app">Web/Mobile</a></li>
+            <li><a href="#" data-filter=".infra">Infra</a></li>
+            <li><a href="#" data-filter=".data">Data</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 infra">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/1-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                
+                <div class="top-left">
+                  <h6>Software Vulnerabiility Control</h6> 
+                  <div class="proj-text">
+                    <p>A vulnerability control infrastructure for open-source artifacts that internal software depends on</p>
+                    <p><h7>Tools:</h7> Maven, Spring, ActiveMQ, JMS, REST, Linux, AWS</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/1-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/2-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>PanoChat</h6> 
+                  <div class="proj-text">
+                    <p>An Android video chat app that allows users to share their panoramic backgrounds while chatting</p>
+                    <p><h7>Tools:</h7> Android Studio, Gradle, OpenTok, WebRTC, Firebase</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/2-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/3-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>Human-Agent Collaboration Game</h6> 
+                  <div class="proj-text">
+                    <p>A web-based Tetris game that allows two users or one user with an agent to collaborate </p>
+                    <p><h7>Tools:</h7> Bootstrap, React, Socket.IO, MongoDB</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/3-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 infra">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/4-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>SQL Interpreter for DBMS</h6> 
+                  <div class="proj-text">
+                    <p> A SQL statement interpreter for database management system with optimized functions including parse, translation (into relational algebra query plans) and
+                      relational operator evaluation of queries</p>
+                    <p><h7>Tools:</h7> Java, Eclipse</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/4-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/5-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>YelpCamp</h6> 
+                  <div class="proj-text">
+                    <p> A full-stack web app in which users can create/edit their campgrounds and view/post comments</p>
+                    <p><h7>Tools:</h7> Bootstrap, Express.js, Node.js, jQuery, MongoDB</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/5-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/6-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>Campus Navigation</h6> 
+                  <div class="proj-text">
+                    <p> A campus navigation web app based on real-world mapping data from Open Street Map. Features include zooming in/out and dragging the map, finding the shortest route, displaying navigation
+                      instructions</p>
+                    <p><h7>Tools:</h7> Java, Maven, jQuery</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/6-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/7-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>RGB Color Guessing Game</h6> 
+                  <div class="proj-text">
+                    <p> A web game app to let users guess a color block given RGB coordinates which aims to help users to understand RGB colors </p>
+                    <p><h7>Tools:</h7> HTML, CSS, Javascript</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/7-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 data">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/8-large.jpg" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="top-left">
+                  <h6>Mammogram Mass Prediction</h6> 
+                  <div class="proj-text">
+                    <p> A system that predicts whether a mammogram mass is benign or malignant based on different supervised machine learning models; achieved 81% accuracy</p>
+                    <p><h7>Tools:</h7> Python, NumPy, Scikit-learn, Pandas, Keras</p>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/8-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Get In Touch</h2>
+      <hr>
+    </div>
+    <h4>Looking forward to connecting with you!</h4>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/jinchao.yin.79"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/jinchao-yin-18430b91"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/cedarforest7"><i class="fa fa-github"></i></a></li>
+          <li><a href="mailto:jacquelineyin7@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2020 Jackie Yin </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
